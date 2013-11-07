@@ -17,7 +17,7 @@ module RubyAsterisk
 
     def connect
       begin
-        @session = Net::Telnet::new("Host" => self.host,"Port" => self.port)
+        @session = Net::Telnet::new("Host" => self.host,"Port" => self.port, "Output_log" => "#{Rails.root}/public/log", "Waittime" => 5)
         self.connected = true
       rescue Exception => ex
         false
