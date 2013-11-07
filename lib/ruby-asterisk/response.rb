@@ -1,3 +1,4 @@
+# encoding: UTF-8
 module RubyAsterisk
   class Response
     attr_accessor :type, :success, :action_id, :message, :data, :raw_response

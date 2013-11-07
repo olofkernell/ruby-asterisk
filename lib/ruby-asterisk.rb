@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 require "ruby-asterisk/version"
 require "ruby-asterisk/request"
 require "ruby-asterisk/response"
